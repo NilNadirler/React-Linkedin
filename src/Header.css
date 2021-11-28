@@ -1,0 +1,45 @@
+.header{
+position: sticky;
+top: 0;
+display: flex;
+background-color: white;
+justify-content: space-evenly;
+border-bottom: 0.1px solid lightgray;
+padding-top: 5px;
+padding-bottom: 0;
+width: 100%;
+z-index: 999;
+
+}
+.header__left{
+    display: flex;
+    
+}
+
+
+.header__search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 14px;
+
+    color: gray;
+    background-color: #eef3f8;
+    margin-top: 5px !important;
+}
+
+.header__search >input{
+    outline: none;
+    border: none;
+    background:none;
+  
+}
+
+.linkedin{
+    font-size: 45px !important;
+    color: blue;
+    margin-right: 5px;
+   
+}
+
